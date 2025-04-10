@@ -16,11 +16,10 @@ public class Media {
             numeroAluno++;
             System.out.println("Deseja informar a idade de outro aluno? [S/N]");
             continuar = leitorTexto.nextLine();
-        }while(continuar.equalsIgnoreCase("s")|| continuar.equalsIgnoreCase("n"));
+        }while(continuar.equalsIgnoreCase("s")|| continuar.equalsIgnoreCase("sim"));
         media = idade / numeroAluno;
         System.out.println("A média de idade dos alunos da escola é: " + media);
     }
 
 }
-    }
-}
+
